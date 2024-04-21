@@ -1,0 +1,1 @@
+使用`getconf _PHYS_PAGES`查看物理内存总页数。

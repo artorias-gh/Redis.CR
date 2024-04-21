@@ -1,0 +1,1 @@
+格式化字符串说明符语法为:`%[parameter][flags][width][.precision][length]type`，`z`属于length字段，与整数转换说明符一起使用，表示一个size_t的值；`u`属于type字段，表示按十进制打印无符号整型。在32位系统下，size_t为unsigned int，不会溢出，而在64位系统中size_t为unsigned long，可能会溢出。

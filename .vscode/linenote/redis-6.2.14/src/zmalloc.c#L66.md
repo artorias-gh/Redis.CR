@@ -1,0 +1,1 @@
+在glibc实现中malloc(0)不会报错，返回NULL；在jemalloc中，malloc(0)会按8字节分配一块内存区域，不会返回NULL。

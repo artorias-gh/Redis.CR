@@ -1,0 +1,1 @@
+使用`getconf PAGESIZE`可以查看当前系统缓存页大小。
