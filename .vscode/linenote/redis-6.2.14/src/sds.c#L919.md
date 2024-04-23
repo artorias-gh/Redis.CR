@@ -1,1 +1,1 @@
-按理来说memcmp(s+j,sep,seplen)==0会覆盖seplen == 1 && *(s+j) == sep[0]这种情况，这里为什么要分开写呢？
+memcmp(s+j,sep,seplen)==0会覆盖seplen == 1 && *(s+j) == sep[0]这种情况，但是大部分情况下我们都会用单个字符作为sep，使用seplen == 1 && *(s+j) == sep[0]优先判断可以减少函数调用开销。
