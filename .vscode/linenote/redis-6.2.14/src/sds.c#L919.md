@@ -1,0 +1,1 @@
+按理来说memcmp(s+j,sep,seplen)==0会覆盖seplen == 1 && *(s+j) == sep[0]这种情况，这里为什么要分开写呢？

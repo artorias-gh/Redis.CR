@@ -1,0 +1,1 @@
+trymalloc为true时若分配失败则中止程序，false时返回NULL。

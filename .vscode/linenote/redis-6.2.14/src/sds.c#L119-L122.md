@@ -1,0 +1,1 @@
+init为SDS_NOINIT时s不进行初始化也不赋值；init为NULL时s置0；init不为空时s按init进行赋值（见后文）。

@@ -1,0 +1,1 @@
+size_t 即 unsigned long，-1经过类型转换后即最大可表示的数值。

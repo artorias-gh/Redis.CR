@@ -1,0 +1,1 @@
+在64位系统中，long int和long long int都占8字节；而在32位操作系统中，long int占4字节。因此`LONG_MAX == LLONG_MAX`可用于区别32位或64位操作系统。

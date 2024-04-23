@@ -1,0 +1,1 @@
+不改变type，用于在sdsMakeRoomFor改变alloc后改变len。

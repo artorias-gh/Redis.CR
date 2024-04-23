@@ -1,0 +1,1 @@
+libc的malloc绝大多数情况下都满足`*usable==size`，但对于tcmalloc、jemalloc来说，由于内存池和分配策略差异，可能会出现`*usable>size`的情况

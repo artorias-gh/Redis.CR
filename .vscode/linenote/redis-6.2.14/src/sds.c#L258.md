@@ -1,0 +1,1 @@
+type5只记录了长度，没有预留空间，用户在调用sdsMakeRoomFor时一般时要进行append操作，并不适合使用type5。

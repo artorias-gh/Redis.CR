@@ -1,0 +1,1 @@
+低于sizeof(staticbuf)情况下使用栈上staticbuf，超出sizeof(staticbuf)情况下在堆上重新分配。
