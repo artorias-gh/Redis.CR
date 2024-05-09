@@ -1,0 +1,1 @@
+`l->tail`非NULL则`l->head`一定非NULL，`o->len > 0`已经排除了`o->head`为NULL的情况。

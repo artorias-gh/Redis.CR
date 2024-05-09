@@ -1,0 +1,1 @@
+并没有调整`node->next`的`prev`指针，下面也没有调整`node->prev`的`next`指针。

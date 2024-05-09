@@ -1,0 +1,1 @@
+前一个if else只处理了插入节点的prev和next指针，插入后左右节点的指针调整对于前插和后插都是一样的：如果prev节点不是NULL，就将prev节点的next指针指向插入节点；如果next节点不是NULL，就将next节点的prev指针指向插入节点。

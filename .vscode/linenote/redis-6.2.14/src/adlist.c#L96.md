@@ -1,0 +1,1 @@
+即`list->head = list->tail = NULL`。
