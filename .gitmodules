@@ -1,4 +1,4 @@
 [submodule "redis-6.2.14"]
 	path = redis-6.2.14
-	url = https://github.com/redis/redis.git
+	url = git@github.com:redis/redis.git
 	commit = 91863dd854feba7f75ae58976a920acb192a5b67
